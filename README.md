@@ -1,10 +1,13 @@
 WILL THEY BUY AGAIN?
+
  Goal
+ 
 The project focuses on primary objectives:
 
 Predict whether customers will place future orders using CNN, RNN, and a hybrid RNN+LSTM model based on demographic data such as age, occupation, monthly income, and family size. 
 
  Dataset
+ 
 From Kaggle
 
 The dataset consists of 388 entries with 55 columns, providing detailed insights into customer preferences and experiences in online food delivery. Key variables include:
@@ -23,6 +26,7 @@ Customer Reordering Behavior Prediction: For predicting whether a customer will 
 
 
  What I had done!
+ 
 Data Preprocessing: -Removed missing and irrelevant data (e.g., 'Nil' reviews). -Tokenized reviews and converted them into sequences suitable for deep learning models.
 
 Exploratory Data Analysis (EDA): -Analyzed the distribution of customer demographics such as age, income, family size etc. -Created visualizations like bar charts and word clouds for reviews to understand sentiment polarity.
@@ -32,6 +36,8 @@ Model Implementation for Prediction: -Built CNN, RNN, and RNN+LSTM models to pre
 Evaluation and Comparison: -Compared models using accuracy, precision, recall, and F1-score. -Identified the most accurate models for each task.
 
  Models Implemented
+
+ 
 For Customer Reordering Prediction: CNN (Convolutional Neural Network): Captures local patterns and relationships in structured data such as demographic information. RNN (Recurrent Neural Network): Captures sequential dependencies between behavioral factors, though it can suffer from vanishing gradients. RNN + LSTM (Hybrid Model): Handles long-term dependencies more effectively than standard RNNs, providing more accurate predictions for reordering behavior.
 
 Libraries Needed
